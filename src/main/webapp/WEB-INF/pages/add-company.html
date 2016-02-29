@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+	integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+	crossorigin="anonymous">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+	crossorigin="anonymous">
+	
+</script>
+<script src="../scripts/add-company.js"></script>
+<meta charset="UTF-8">
+<title>Add companies</title>
+</head>
+<body>
+	<div class="container">
+		<div style="min-height: 100px;"></div>
+		<div class="jumbotron" style="min-width: 800px; min-height: 640px;">
+			<div style="padding-left: 92px">
+				<h2>Add companies</h2>
+			</div>
+			<div class="row">
+				<label id="result" style="padding-top: 20px; padding-left: 100px"></label>
+				<div class="input-group required col-xs-4"
+					style="padding-top: 20px; padding-left: 100px;">
+					<label for="company-name">Company name</label> <input type="text"
+						class="form-control" id="company-name">
+				</div>
+				<div class="input-group required col-xs-4"
+					style="padding-top: 10px; padding-left: 100px;">
+					<label for="company-symbol">Company's stock symbol</label> <input
+						type="text" class="form-control" id="company-stock-symbol">
+				</div>
+			</div>
+			<div style="padding-top: 40px; padding-left: 84px;">
+				<p>
+					<a class="btn btn-primary btn-lg" id="add-company" href="#"
+						role="button">Add company</a>
+				</p>
+			</div>
+		</div>
+	</div>		
+</body>
+</html>
